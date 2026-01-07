@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/trace_elephant_banner.png" alt="TraceElephant" width="550">
+  <img src="assets/trace_elephant_banner.png" alt="TraceElephant" width="700">
 </p>
 
 ## 🧐 Overview
 
 <div align="center">
-    <img src="assets/overview.png" alt="overview" width="520">
+    <img src="assets/overview.png" alt="overview" width="700">
 </div>
 
 This repository provides the benchmark and evaluation framework for the paper **“Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems.”**
