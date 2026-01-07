@@ -18,7 +18,7 @@ We study **failure attribution** in LLM-based multi-agent systems (MAS), aiming 
 Unlike existing benchmarks that rely on **output-only** traces, **TraceElephant is designed for developer-facing debugging scenarios**, providing **fully observable execution traces** together with **reproducible execution environments**. Here is a case showing the difference:
  
 <div align="center">
-    <img src="assets/show_case.png" alt="overview" width="520">
+    <img src="assets/show_case.png" alt="overview" width="700">
 </div>
 
 ---
