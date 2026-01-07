@@ -1,0 +1,37 @@
+# LLM API Middleware Configuration Example
+# Copy this file to config.yaml and update with your settings
+
+# Upstream LLM API Configuration (the actual API you want to call)
+upstream:
+  # IMPORTANT: base_url should NOT include /v1 at the end
+  # The middleware will automatically add /v1/chat/completions, /v1/completions, etc.
+  base_url: "https://api.openai.com"     # OpenAI compatible API endpoint (without /v1)
+  api_key: "sk-your-api-key-here"        # Your API key
+  model_name: "gpt-4o"                   # Default model name
+
+# Alternative examples:
+# For OpenAI:
+#   base_url: "https://api.openai.com"  # NOT https://api.openai.com/v1
+#   api_key: "sk-..."
+#
+# For Azure OpenAI:
+#   base_url: "https://your-resource.openai.azure.com/openai/deployments/your-deployment"
+#   api_key: "your-azure-api-key"
+#
+# For other providers:
+#   base_url: "https://api.xxx.com"  # NOT https://api.xxx.com/v1
+#   api_key: "sk-..."
+
+# Local Server Configuration (your middleware server)
+server:
+  host: "0.0.0.0"  # Use 0.0.0.0 to allow external connections, 127.0.0.1 for localhost only
+  port: 8000       # Port for the middleware server
+
+# Logging Configuration
+logging:
+  # Directory to save request/response logs
+  log_dir: "./logs"
+  # Whether to save logs
+  enabled: true
+  # Whether to print logs to console
+  console_output: true

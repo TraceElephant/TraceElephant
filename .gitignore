@@ -1,0 +1,94 @@
+# ======================
+# Python bytecode
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ======================
+# Virtual environments
+# ======================
+.venv
+venv/
+
+# ======================
+# Packaging / build
+# ======================
+build/
+dist/
+develop-eggs/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ======================
+# Installer logs
+# ======================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ======================
+# Unit test / coverage
+# ======================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# ======================
+# Jupyter Notebook
+# ======================
+.ipynb_checkpoints/
+
+# ======================
+# Static type checking
+# ======================
+.mypy_cache/
+.pytype/
+.pyre/
+
+# ======================
+# IDE / Editors
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# ======================
+# OS generated
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Logs & temp
+# ======================
+*.log
+logs/
+tmp/
+temp/
+
+# ======================
+# Local config (secrets)
+# ======================
+.env.local
+.env.*.local
+config.local.yaml
+config.local.json
+
+# ======================
+# Data
+# ======================
+data/
