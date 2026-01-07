@@ -8,8 +8,7 @@
     <img src="assets/overview.png" alt="overview" width="520">
 </div>
 
-This repository provides the benchmark and evaluation framework for the paper  
-**“Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems.”**
+This repository provides the benchmark and evaluation framework for the paper **“Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems.”**
 
 We study **failure attribution** in LLM-based multi-agent systems (MAS), aiming to automatically identify:
 
