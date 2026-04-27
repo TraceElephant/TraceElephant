@@ -2,6 +2,12 @@
   <img src="assets/trace_elephant_banner.png" alt="TraceElephant" width="700">
 </p>
 
+## 📢 News
+
+- **[2026.04]** 🎉 Our paper **“Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems”** has been accepted by **ACL 2026**!
+
+---
+
 ## 🧐 Overview
 
 <div align="center">
@@ -136,10 +142,13 @@ See details in `code/trace_locate`.
 If you use **TraceElephant** in your research or find this repository helpful, please consider citing our work:
 
 ```bibtex
-@misc{2026traceelephant,
-    title={TraceElephant: Seeing the Whole Elephant for Failure Attribution in LLM-based Multi-Agent Systems},
-    author={Anonymous},
-    howpublished={\url{https://github.com/TraceElephant/TraceElephant}},
-    year={2026}
+@misc{chen2026seeingelephantbenchmarkfailure,
+      title={Seeing the Whole Elephant: A Benchmark for Failure Attribution in LLM-based Multi-Agent Systems}, 
+      author={Mengzhuo Chen and Junjie Wang and Fangwen Mu and Yawen Wang and Zhe Liu and Huanxiang Feng and Qing Wang},
+      year={2026},
+      eprint={2604.22708},
+      archivePrefix={arXiv},
+      primaryClass={cs.MA},
+      url={https://arxiv.org/abs/2604.22708}, 
 }
 ```
